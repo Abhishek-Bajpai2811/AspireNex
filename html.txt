@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about" class="section">
+            <h1>About Me</h1>
+            <p>Hello! I am Abhishek Bajpai, a passionate web developer with expertise in creating dynamic and responsive websites. I love coding and constantly learning new technologies to improve my skills.</p>
+        </section>
+        <section id="projects" class="section">
+            <h1>Projects</h1>
+            <div class="project-list">
+                <div class="project-item">
+                    <h2>Face Recognition System1</h2>
+                    <p>The primary objective is streamline the traditional attendance tracking methods by implementing a secure and
+user-friendly system. The system utilizes the OpenCV library for face detection and recognition, allowing it to accurately
+identify and authenticate individuals based on their facial features..</p>
+                </div>
+                <div class="project-item">
+                    <h2>Hospital Management System</h2>
+                    <p>This project helps in managing patient data efficiently so that hospitals can provide better care and services and
+maintain record of all functions in hospital like Booking Appointments and various information regarding medical
+diagnosis.</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </section>
+        <section id="skills" class="section">
+            <h1>Skills</h1>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>DBMS</li>
+                <li>SQL</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h1>Contact</h1>
+            <div class="contact-info">
+                <p>Email: <a href="abajpai2811@gmail.com"></a>abajpai2811@gmail.com</a></p>
+                <p>Phone: <a href="tel:+918687286454">+91 8687286454</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/abhishek-bajpai-423742186" target="_blank">LinkedIn Profile</a></p>
+            </div>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Abhishek Bajpai. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
